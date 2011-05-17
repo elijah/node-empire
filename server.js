@@ -4,7 +4,7 @@ require.paths.unshift(__dirname + '/lib/support/express/lib')
 require.paths.unshift(__dirname + '/lib/support/hashlib/build/default')
 
 require('express')
-require('express/plugins')
+// require('express/plugins')
 
 configure(function(){
   use(MethodOverride)
